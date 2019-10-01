@@ -16,31 +16,50 @@
                 margin: 10px auto 20px;
                 display: block;
             }
+            #divFeedityWidget {
+                font-family: Arial;
+                font-size: 16px;
+            }
         </style>
-        <title>Hello World</title>
+        <title>Embedding Original Work</title>
     </head>
+
     <body>
         <h1>Video using iFrame</h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SB-qEYVdvXA?autoplay=1&start=180" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>Extra Features:</p>
         <ul>
-                <li>Starts at 3 minutes mark</li>
-                <li>Autoplay when page loads</li>
+            <li>Starts at 3 minutes mark</li>
+            <li>Autoplay when page loads</li>
         </ul>
+
         <h1>Video using HTML Video Tag</h1>
         <video width="320" height="240" controls>
             <source src="spongebob.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+
         <h1>Audio Tag</h1>
         <audio controls>
             <source src = "spongebob.mp3" type="audio/mpeg">
         </audio>
 
         <h1>Gif with Object Tag</h1>
-        <object width="300" height="200" data="https://cdn.bitdegree.org/learn/giphy%20(1).gif?raw=true" type="image/gif">Image not found.</object>
+        <object width="300" height="200" data="https://media.giphy.com/media/xDqnFsdTb1i2Q/giphy.gif" type="image/gif">Image not found.</object>
 
         <h1>Google Map</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.602763834144!2d-122.3081515488562!3d47.6532856790857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014ed33b3bbf1%3A0xfb8835823751408d!2sPaul%20G.%20Allen%20Center%20for%20Computer%20Science%20%26%20Engineering%20(Cse)%2C%20Seattle%2C%20WA%2098195!5e0!3m2!1sen!2sus!4v1569880149082!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <h1>CNN RSS Feed (Top Stories)</h1>
+        <script language="JavaScript" type="text/javascript">
+            feedity_widget_feed = "https://feedity.com/vic-gov-au/UlJWW1FbVQ.rss";
+            feedity_widget_numberofitems = "5";
+            feedity_widget_showdescription = "yes";
+            feedity_widget_showdate = "yes";
+            feedity_widget_width = "400px";
+            feedity_widget_backcolor = "#FFFFE9";
+            feedity_widget_fontcolor = "#11729c";
+        </script>
+        <script language="JavaScript" type="text/javascript" src="https://feedity.com/js/widget.js"></script>
     </body>
 </html>
