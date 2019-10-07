@@ -1,0 +1,16 @@
+body {
+    background-color: #D1EBEC;
+  }
+h1 {
+    color: #2A5697;
+}
+p {
+    color: #8A96D6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    width: 300;
+    height: 500;
+    float: right;
+    border-radius: 80%;
+}
