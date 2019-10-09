@@ -20,10 +20,6 @@ ul {
     padding-left: 0px;
 }
 
-li {
-
-}
-
 a {
     color: white;
     font-weight: bold;
@@ -56,14 +52,6 @@ a {
     background-color: #8E41D5;
 }
 
-#LeftNav img {
-
-}
-
-#LeftNav ul {
-    
-}
-
 #LeftNav h3 {
     color: #FFBC00;
     font-size: 40px;
@@ -88,10 +76,6 @@ a {
     border: solid 8px black;
     text-align: center;    
     background-color: #8E41D5;
-}
-
-.titles {
-
 }
 
 #bow {
